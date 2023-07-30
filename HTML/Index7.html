@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML IDs</title>
+        <title>HTML Semantic Tags</title>
         <style>
-            .
+            body
+            {
+                margin:0px;
+            }
+            #Header
+            {
+                background-color: #617143;
+                padding : 25px;
+            }
+            #navbar
+            {
+                text-align: center;
+                background-color: #DF7857;
+                padding : 16px;
+            }
+            span
+            {
+                font-size: 25px;
+                margin : 16px;
+            }
+            #main_section
+            {
+                background-color: #EDE9D5;
+                padding : 25px;
+            }
+            #sections
+            {
+                background-color: #617143;
+                padding:25px;
+                margin: 25px;
+            }
+            p,h3
+            {
+                font-size: 25px;
+            }
+            .article_section
+            {
+                background-color: #DF7857;
+                padding : 5px;
+            }
+            #footer
+            {
+                background-color: #617143;
+                padding:16px
+            }
         </style>
     </head>
     <body>
-
+        <header id="Header">
+            <nav id = "navbar">
+                <span>Menu1</span>
+                <span>Menu2</span>
+                <span>Menu3</span>
+            </nav>
+        </header>
+        <main id = "main_section">
+            <section id = "sections">
+                <article class ="article_section">
+                    <header>
+                        <h3>Article 1</h3>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius molestiae nostrum voluptate laboriosam, repellat impedit atque dolores officia inventore temporibus deserunt ea commodi. Iusto accusamus iste sit neque praesentium!</p>
+                </article>
+                <article class = "article_section">
+                    <header>
+                        <h3>Article 1</h3>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius molestiae nostrum voluptate laboriosam, repellat impedit atque dolores officia inventore temporibus deserunt ea commodi. Iusto accusamus iste sit neque praesentium!</p>
+                </article>
+            </section>
+        </main>
+        <footer id = "footer">
+            <p>Copyright 2023</p>
+        </footer>
     </body>
 </html>
