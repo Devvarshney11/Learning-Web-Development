@@ -1,0 +1,12 @@
+#ordered-list
+{
+    list-style-type:lower-latin;
+    list-style-position: inside;
+    padding:0%;
+    width:50%;
+}
+#unordered-list
+{   
+    display : inline;
+    list-style-type: none;
+}

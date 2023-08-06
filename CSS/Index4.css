@@ -1,0 +1,33 @@
+body
+{
+    background-color: #E8F6EF;
+    margin : 0;
+}
+header
+{
+    padding: 24px;
+    background-color: #1B9C85;
+    text-align: center;
+}
+.menu-item
+{
+    font-size: 24px;
+    margin:18px;
+    text-decoration: none;
+}
+.menu-item:link
+{
+    color:#FFE194;
+}
+.menu-item:visited
+{
+    color:#FFD95A;
+}
+.menu-item:hover
+{
+    color:#C07F00;
+}
+.menu-item:active
+{
+    color:#4C3D3D;
+}

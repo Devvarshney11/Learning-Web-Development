@@ -1,0 +1,22 @@
+body
+{
+    color:#F5F5F5;
+}
+h1{
+    font-size: 48px;
+    text-transform: capitalize;
+    text-align: center;
+    color:#3F2305;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+p
+{
+    font-size: 21px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 600;
+    color:#A4907C;
+    text-align: justify;
+    font-family: 'Indie Flower', cursive;
+}
