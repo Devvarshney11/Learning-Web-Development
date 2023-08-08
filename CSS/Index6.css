@@ -1,0 +1,37 @@
+#btn-login
+{
+    color:white;
+    background-color: #91C8E4;
+    outline:none;
+    border:1px solid #91C8E4;
+    padding:16px 32px;
+    cursor:pointer;
+    border-radius:8px;
+    margin:10px 20px;
+}
+#btn-signup
+{
+    color:white;
+    background-color: #E57C23;
+    outline:none;
+    border:1px solid #E8AA42;
+    padding:16px 32px;
+    cursor:pointer;
+    border-radius:8px;
+    margin:10px 20px;
+}
+#btn-disabled
+{
+    color:white;
+    background-color: #91C8E4;
+    outline:none;
+    border:1px solid #91C8E4;
+    padding:16px 32px;
+    cursor:not-allowed;
+    border-radius:8px;
+    margin:10px 20px;
+}
+span
+{
+    padding-left:12px;
+}

@@ -1,0 +1,42 @@
+body
+{
+    margin:0;
+}
+header
+{
+    background-color: #E5F9DB;
+    height:100px;
+}
+aside
+{
+    background-color: #A0D8B3;
+    height:700px;   
+    width:48%;
+    margin-right:1%;
+    display:inline-block;
+}
+section
+{
+    background-color: #A2A378;
+    height:700px;
+    width:28%;
+    margin-right:1%;
+    display: inline-block;
+}
+article
+{
+    background-color: #579BB1;
+    height:700px;
+    width:20%;
+    margin-right:1%;
+    display:inline-block
+}
+main
+{
+    margin:30px;
+}
+footer
+{
+    background-color: #83764F;
+    height: 300px;
+}
