@@ -1,0 +1,37 @@
+body
+{
+    margin:0;
+}
+header
+{
+    padding: 32px 5%;
+    width:100%;
+    box-sizing: border-box;
+    height:900px;
+    background-image: url("/assets/images/kristyna-squared-one-EBWRW7NY3cw-unsplash.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+nav
+{
+    text-align:center;
+}
+nav span
+{
+    color:white;
+    font-size: 16px;
+    margin:0px 10px;
+    font-size: 20px;
+}
+header h1
+{   
+    color:white;
+    font-size:80px;
+    padding-top:10%;
+}
+header p
+{
+    color:white;
+    font-size: 25px;
+    margin-top:-25px;
+}

@@ -1,0 +1,32 @@
+body
+{
+    margin:0;
+    background-color: #ADC4CE;
+}
+.outside
+{
+    margin:10% 20%;
+}
+.wrapper
+{
+    text-align: justify;
+    border-radius:8px;
+    background-color: #ccc;
+    box-shadow: 4px 4px 5px #aaa;
+}
+h1
+{
+    text-align: center;
+}
+p{
+    padding:16px
+}
+
+article p
+{
+    font-size: 25px;
+}
+/* article > p
+{
+    font-size: 25px;
+} */

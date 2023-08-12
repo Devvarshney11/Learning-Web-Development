@@ -1,0 +1,13 @@
+h1
+{
+    color:seagreen;
+    text-shadow: 2px 4px 2px orange;
+}
+h2
+{
+    width:100px;
+    height:100px;
+    background-color: black;
+    color:green;
+    box-shadow: 4px 4px 2px orange;
+}

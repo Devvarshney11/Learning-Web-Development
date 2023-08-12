@@ -1,0 +1,64 @@
+body
+{
+    background-color: #33BBC5;
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.heading
+{
+    font-size:35px;
+    text-align: center;
+}
+form
+{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    background-color:white;  
+    box-shadow: 4px 4px 2px #aaa;
+    border-radius: 8px;
+}
+.input-wrapper
+{
+    padding-top:80px;
+    padding-bottom:40px;
+    padding-left: 80px;
+    padding-right:80px;
+}
+.input
+{
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-bottom:20px;
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    border-bottom:1px solid #ccc;
+    width : 100%;
+}
+input:focus{
+    outline:none;
+    /* background-color: lightblue; */
+}
+.submit-button
+{
+    font-size:20px;
+    padding:12px 24px;
+    background-color: blue;
+    width:100%;
+    color:white;
+    border:none;
+    border-radius:8px;
+}
+.submit-button:hover
+{
+    background-color:lightskyblue;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Index11.css" type="text/css">
+    <title>Psuedo Classes</title>
+</head>
+
+<body>
+    <header class="heading">
+        <h1>Register</h1>
+    </header>
+    <main>
+        <form>
+            <div class="input-wrapper">
+                <div>
+                    <input class="input" type="text" name="fname" placeholder="Full Name" required>
+                </div>
+                <div>
+                    <input class="input" type="email" name="email" placeholder="Email" disabled>
+                </div>
+                <div>
+                    <input class="input" type="number" onwheel="this.blur()" name="age" placeholder="Age" maxlength="2" />
+                </div>
+                <div>
+                    <input class="input" type="password" name="pass" placeholder="Password" maxlength="8">
+                </div>
+                <div>
+                    <input class="input" type="password" name="conf-password" placeholder="Confirm Password" maxlength="8">
+                </div>
+                <input class ="submit-button" type="submit" value="Register">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
