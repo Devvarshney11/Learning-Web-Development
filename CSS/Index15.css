@@ -1,0 +1,20 @@
+.flexcontainer
+{
+    width:100vw;
+    display:flex;
+    background-color:lightblue;
+    padding:24px;
+    /* justify-content: center; */
+}
+.flexitem
+{
+    width:400px;
+    height:200px;
+    margin:0 16px;
+    border-radius: 8px;
+    flex-direction: row;
+}
+.flexitem:hover
+{
+    flex-grow:0.1;
+}
