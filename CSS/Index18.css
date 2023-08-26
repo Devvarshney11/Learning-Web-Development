@@ -1,0 +1,26 @@
+body
+{
+    background-image:url(https://t3.ftcdn.net/jpg/02/85/69/80/360_F_285698022_bfZdOHbLGkg4BadIWNkKLReNEYnjyxgP.jpg);
+    background-size: cover;   
+}
+img
+{
+    width:300px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    animation: fly 5s ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes fly
+{
+    0%
+    {
+        transform:translate(-50%,0)
+    }
+    100%
+    {
+        transform: translate(-50%,-100vh);
+    }
+}

@@ -1,0 +1,250 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.logo {
+    width: 40px;
+}
+
+header {
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.dropdown-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.menu {
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.menu-items {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.dropdown {
+    width: 150px;
+    border-top: 2px solid rgb(170, 210, 54);
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    position: absolute;
+    right: 25px;
+    display: none;
+}
+
+.dropdown-wrapper:hover .dropdown {
+    display: block
+}
+
+.dropdown .menu:last-of-type {
+    border: 0;
+}
+
+.buy-button {
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.landingsection {
+    width: 100%;
+    height: 100vh;
+}
+
+.maintextwrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintextwrapper h3 {
+    font-size: 60px;
+
+    white-space: wrap;
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 10px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+
+.maintextwrapper p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding: 32px;
+}
+
+.stepsection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.step-item {
+    width: 25%;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 112px 48px;
+    /* display: flex; */
+}
+
+@media (max-width:760px) {
+    .stepsection {
+        flex-direction: column;
+    }
+    header
+    {
+        padding:0;
+    }
+    .step-item
+    {
+        padding:112px 36px;
+        width:100%;
+    }
+}
+
+.step-item i {
+    font-size: 96px;
+}
+
+.step-item p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+
+.step-item h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#step1 {
+    background-color: #5acda6;
+}
+
+#step2 {
+    background-color: #91ac41;
+}
+
+#step3 {
+    background-color: #e4b476;
+}
+
+#step4 {
+    background-color: #f69dad;
+}
+
+.storesection {
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #f7eee2;
+    text-align: center;
+}
+
+.freshfoodheading {
+    color: #91ac41;
+    font-size: 44px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding-top: 75px;
+}
+
+.storesection h3 {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.storedesc {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.storewrapper {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    margin: 0 auto;
+}
+
+.store {
+    padding: 24px;
+    width: 25%;
+    text-align: center;
+}
+
+.store h3 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.store p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    color: #8b8b99;
+}
+
+.iconwrapper {
+    display: inline-block;
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 60px;
+    color: white;
+}
+
+.iconwrapper i {
+    font-size: 60px;
+}
