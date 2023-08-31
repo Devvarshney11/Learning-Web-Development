@@ -1,0 +1,22 @@
+#bg-img
+{
+    background-image: url('/stylish-hexagonal-line-pattern-background_1017-19742.avif');
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+}
+/* #bg-img
+{
+    width:100%;
+    height: 100%;
+} */
+#countdown
+{
+    /* display: inline-block; */
+    font-size: 44px ;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}

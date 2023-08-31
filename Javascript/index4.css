@@ -1,0 +1,23 @@
+body
+{
+    margin:0;
+    background-color: lightyellow;
+}
+.button-wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    font-size: 24px;
+    margin:20px;
+}
+.text-wrapper
+{
+    padding:10% 0;
+}
+#text
+{
+    text-align: center;
+    font-size: 24px;
+}
