@@ -20,6 +20,7 @@ body
     border:2px solid black;
     box-shadow: 2px 2px;
     margin:0 12px;
+    transition: all 0.2s;
 }
 .key>h3
 {
@@ -33,4 +34,10 @@ body
     font-size: 14px;
     color:orange;
     margin:0;
+}
+.highlight
+{
+    transform: scale(1.1);
+    border-color: blue;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
