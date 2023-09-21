@@ -1,0 +1,25 @@
+.wrapper
+{
+    text-align: center;
+    width:100%;
+}
+#add-btn
+{
+    font-size: 18px;
+    padding:14px 18px;
+}
+#list-wrapper
+{
+    list-style: none;
+    width: 50%;
+    margin: 0 auto;
+}
+#list-wrapper>li
+{
+    font-size: 24px;
+    padding:25px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin:25px 0;
+    text-align: left;
+}

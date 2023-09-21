@@ -1,0 +1,31 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+.textwrapper
+{
+    display:flex;
+    justify-content: center;
+}
+#over ,#enter, #move
+{
+    margin:25px;
+    text-align: center;
+    background-color:lightcoral;
+    padding:25px;
+}
+#over>h3 , #enter>h3, #move>h3
+{
+    padding:25px;
+    background-color: lightskyblue;
+    border:1px solid skyblue;
+}
+
+#over>p , #enter>p, #move>p
+{
+    font-size: 18px;
+    padding:25px;
+    background-color: lightskyblue;
+    border:1px solid skyblue;
+}

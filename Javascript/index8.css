@@ -1,0 +1,30 @@
+body
+{
+    background-color: aquamarine;
+}
+.form-wrapper
+{
+    margin-top:100px;
+}
+.form-design
+{
+    background-color: whitesmoke;
+    border-radius: 4px;
+    width:600px;
+    margin:0 auto;
+    text-align: center;
+}
+input{
+    width:80%;
+    padding:12px;
+    border-radius: 4px;
+    margin:10px;
+    border: 1px solid gray
+}
+p
+{
+    color:red;
+    text-align: left;
+    margin-left:55px;
+    display:none;
+}
